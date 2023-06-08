@@ -1,0 +1,26 @@
+{
+  "name": "walker",
+  "version": "1.0.0",
+  "description": "Uma api de um sistema de votação de músicas do dj Alan walker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariborges22/API_AlanWalker.git"
+  },
+  "author": "Mariana Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariborges22/API_AlanWalker/issues"
+  },
+  "homepage": "https://github.com/mariborges22/API_AlanWalker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.2"
+  }
+}
