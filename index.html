@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlanWalker</title>
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+</head>
+<body>
+    <main class="conteiner">
+        <div class="cadastro">
+            <h2>Criar conta</h2>
+            <form onsubmit="return false;" class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" autocomplete="off" placeholder="Digite seu nome...">
+                <label for="email">Email</label>
+                <input type="email" name="email"autocomplete="off" placeholder="Digite seu email...">
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder="Crie uma senha forte...">
+                <button onclick="irParaOutraPagina()" >Cadastrar-se</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="./scripts/index.js"></script>
+</html>
