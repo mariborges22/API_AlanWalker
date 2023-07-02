@@ -1,0 +1,36 @@
+.conteiner{
+    margin: 0 auto;
+    background-color: aqua;
+    width: 80%;
+}
+.inicio{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+.inicio h1{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    margin-top: 1rem;
+}
+.inicio h3{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-2);
+    width: 40%;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.musicas{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.musica{
+
+}

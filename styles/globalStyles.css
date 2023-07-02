@@ -2,7 +2,7 @@
 
 :root {
     --color-brand-1: #050d1c;
-    --color-brand-2: #4c3299;
+    --color-brand-2: #0f2856;
     --color-brand-3: #f0ecfb;
   
     --color-grey-1: #212529;
@@ -14,10 +14,12 @@
     --fixed-white: #ffffff;
     --color-mode: #ffffff;
   
-    --font-size-1: 1.35rem;
-    --font-size-2: 1rem;
-    --font-size-3: 0.875rem;
-    --font-size-4: 0.75rem;
+    --font-size-1: 2rem;
+    --font-size-2: 1.5rem;
+    --font-size-3: 1.35rem;
+    --font-size-4: 1rem;
+    --font-size-5: 0.875rem;
+    --font-size-6: 0.75rem;
   
     --font-weight-1: 600;
     --font-weight-2: 500;
@@ -39,4 +41,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-brand-1);
+    overflow: hidden;
+
 }
